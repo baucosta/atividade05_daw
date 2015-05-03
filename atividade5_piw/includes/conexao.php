@@ -2,11 +2,11 @@
 	
 	function conexao_mysql(){
 		try{
-			$host = '127.0.0.1';
-			$usuario = 'root';
-			$senha='123';
-			$banco = 'daw_yearbook';
-			$porta = 3306;
+			$host = 'br-cdbr-azure-south-a.cloudapp.net';
+			$usuario = 'bb61691df87f29';
+			$senha='bc4dbb4c';
+			$banco = 'amaurydAGBIUV4DD';
+			#$porta = 3306;
 			$charset = "utf8"; 
 			$string_conexao = "mysql:host=$host;port=$porta;dbname=$banco;charset=$charset;";
 			
